@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding: 0;
+}
+@font-face {
+    font-family: "conteudo";
+    src: url("fontes/Saudagar.ttf") format("truetype");
+}
+@font-face {
+    font-family: "textslogan";
+    src: url("fontes/Rebeca.otf") format("opentype");
+}
+body{
+    background-color: black;
+    margin: auto;
+    height: auto;
+    
+   
+}
+.container{
+   margin: auto; 
+   width:90%;
+   height:540px;
+   background-image: url("imagens/pizza-10.jpg");
+   background-position: center;
+   
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size:cover;
+
+}
+
+
+.header{
+   padding-top: 15px;
+   background-image: url("imagens/logoDelivery.png");
+   background-repeat: no-repeat;
+   background-size:16rem ;
+   background-position-x: right;
+   background-position-y:center ;
+   margin: auto; 
+   width:90%;
+  
+}
+
+.headerFundo{
+    margin: auto; 
+    width:90%;
+    background-image:linear-gradient(to top,rgb(206, 201, 201),#d6b4a3,#91583D);
+}
+
+.delivery{
+
+ justify-content: space-between;
+}
+
+.content{
+    font-family: "conteudo";
+    padding: 30px;
+    border-radius: 3px;
+    background-color: rgba(192, 192, 192, 0.534);
+    color: black;
+    overflow: hidden;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    float: left;
+    margin: 10px;
+    margin-left: 40px;
+    height: 430px;
+    width: 550px;
+    
+    
+}
+.h2slogan{
+    font-size: 5rem;
+    text-align:center ;
+}
+.textslogan{
+    font-family: "textslogan";
+    font-size: 2.1rem;
+}
+.subtext-content{
+    font-size: 1.8rem;
+
+}
+.contentRodizio{
+   margin: 15px 0px 15px 0px;
+}
+.content ul{
+    list-style: none;
+}
+.formContainer{  
+    margin-right: 70px;
+    margin-top:20px;
+    background-color: rgba(255, 255, 255, 0.534);
+    max-width: 220px;
+    height:470px;
+    padding: 20px;
+    float: right; 
+    border-radius: 3px;   
+}
+.h2Reserva {
+    font-size: 1.7rem;
+    font-family: "conteudo";
+}
+.telefone , .dataHora ,.qtdpessoas{
+    font-family: "conteudo";
+    font-size: 1.1rem;
+    font-weight:bold;
+    letter-spacing: 3px;    
+}
+.qtdp{
+    width: 70px;
+    height: 15px;
+    box-sizing: border-box;
+}
+input , select{
+    border: 0.5px solid  gray;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+   /* border: none;*/
+    border-radius: 3px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+.textarea{
+    height: 70px;
+    text-align: center;
+}
+.reservarbottom{
+    font-weight: bolder;
+    font-size: 1.1rem;
+    background-color: turquoise;
+}
+.reservarbottom:hover{
+    background-color: yellow;
+}
+.containerFooter{
+   
+    background-color: dimgray;
+    color: blanchedalmond;
+    margin-top: 20px;
+    margin: auto;
+    height: 320px; 
+    width:90%;
+    text-align:center;
+    overflow: hidden;    
+}
+footer{
+    word-spacing: 3px;
+    letter-spacing: 5px;
+    font-family: "conteudo";
+    font-weight: bolder;
+    height: 300px; 
+    padding: 20px;
+    max-width: 50%;
+    margin: auto; 
+}
